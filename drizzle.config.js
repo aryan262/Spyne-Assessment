@@ -6,6 +6,6 @@ export default defineConfig({
   schema: "./configs/schema.js",
   // out: "./drizzle",
   dbCredentials: {
-    url: 'postgresql://neondb_owner:QglNdAMU3i5n@ep-dark-lab-a5t78xhj.us-east-2.aws.neon.tech/neondb?sslmode=require',
+    url: VITE_DATABASE_URL,
   }
 });
